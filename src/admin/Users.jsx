@@ -44,18 +44,24 @@ const Users = () => {
                             <table>
                                 <thead>
                                     <tr>
+                                        <th>
+                                            <input type="checkbox" />
+                                        </th>
                                         <th>ID</th>
                                         <th>Name</th>
                                         <th>Email</th>
                                         <th>Contact</th>
                                         <th>Status</th>
-                                        <th>Created At</th>
-                                        <th>Updated At</th>
+                                        <th>Added At</th>
+                                        <th>Modify At</th>
                                         <th>Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
+                                        <td>
+                                            <input type="checkbox" />
+                                        </td>
                                         <td>1</td>
                                         <td>Russel Vincent Cuevas</td>
                                         <td>russelcuevas0@gmail.com</td>
@@ -75,6 +81,9 @@ const Users = () => {
 
                                     </tr>
                                     <tr>
+                                        <td>
+                                            <input type="checkbox" />
+                                        </td>
                                         <td>2</td>
                                         <td>Russel Vincent Cuevas</td>
                                         <td>russelcuevas0@gmail.com</td>
