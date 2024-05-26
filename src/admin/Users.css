@@ -1,0 +1,29 @@
+.add-user-button {
+    background-color: #752738;
+    padding: 10px;
+    border: none;
+    color: white;
+}
+
+.search input[type="text"] {
+    width: 200px;
+    height: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.filter select {
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.search,
+.filter {
+    margin-left: 0px;
+}
