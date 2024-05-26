@@ -126,6 +126,10 @@ const Users = () => {
                             <input type="password" className="form-control" id="password" />
                         </div>
                         <div className="mb-3">
+                            <label htmlFor="confirm_password" className="form-label">Confirm Password:</label>
+                            <input type="confirm_password" className="form-control" id="confirm_password" />
+                        </div>
+                        <div className="mb-3">
                             <label htmlFor="contact" className="form-label">Contact:</label>
                             <input type="text" className="form-control" id="contact" />
                         </div>
